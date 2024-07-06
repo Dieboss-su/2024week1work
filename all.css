@@ -5,7 +5,8 @@
 img{
     max-width:100%;
 }
-.fontfamily{line-height: 1.5;font-family: castoro;}
+.fontfamily{line-height: 1.5;
+    font-family: castoro;}
 
 .wrapper{
     width: 1920px;
@@ -44,7 +45,7 @@ header h1,h2{
 .list{
     margin-top: 80px;
     margin-left: 312px;
-    margin-bottom: 148px;
+    margin-bottom: 160px;
 }
 .list h3{
     width: 636px;
