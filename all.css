@@ -2,49 +2,45 @@
 *,*:before,*:after{
     box-sizing:border-box;
 }
+a{text-decoration: none;}
 img{
     max-width:100%;
 }
 .fontfamily{line-height: 1.5;
     font-family: castoro;}
-
-.wrapper{
-    width: 1920px;
-}
 .container{
+    width: 1296px;
     margin: 0 auto;
 }
 header h1,h2{
     font-size: 128px;
     line-height: 1.5;
-    letter-spacing: 12pt;
+    letter-spacing: 0.12em;
 }
 .header h1{
-    width: 370px;
-    margin-left: 312px;
-    margin-top: 160px;
+    padding-top: 160px;
 }
 .header img{
     display: block;
     width: 636px;
-    margin-left: 642px;
+    margin: 0 auto;
 }
 .header h2{
-    margin-left: 970px;
+    width: 622px;
+    margin-left:50%;
 }
 .banner{
     background-color: #EFEFEF;
     padding-top: 48px;
     padding-bottom: 48px;
+    margin-bottom: 80px;
 }
 .article{
     width: 636px;
-    margin-left: 972px;
     font-size: 32px;
+    margin-left: auto;
 }
 .list{
-    margin-top: 80px;
-    margin-left: 312px;
     margin-bottom: 160px;
 }
 .list h3{
@@ -52,16 +48,23 @@ header h1,h2{
     font-size: 40px;
     border-bottom:3px solid #AE0000 ;
     color: #AE0000;
-    margin-top: 40px;
+    margin-bottom: 16px;
 }
 li{
     font-size: 24px;
 }
 .list ul{
-    margin-top: 16px;
+    margin-bottom: 40px;
 }
 .evans li{
     margin-bottom: 8px;
+}
+.evans a{
+    color: #000000;
+}
+.evans a:hover{
+    background: #000000;
+    color: #EFEFEF;
 }
 .awards li{
     margin-bottom: 12px;
@@ -69,11 +72,16 @@ li{
 .date {
     font-size: 20px;
     font-style: italic;
-    margin-top: 16px;
+}
+.mb-16{
+    margin-bottom: 16px;
 }
 .footer{
     background-color: #000000;
     padding-top: 64px;
     padding-bottom: 64px;
     text-align: center;
+}
+.me-40{
+    margin-right: 40px;
 }
